@@ -25,7 +25,7 @@ class Hero {
 
         // declaring a method on the object
         this.getDetails = function(){
-        return `$(this._name) can $(this._specialAbility)`
+        return `${this._name} can ${this._specialAbility}`
         };
     }
 }
