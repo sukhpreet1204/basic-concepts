@@ -24,7 +24,7 @@ return {
 
     if(head.value === value){       //If the head is to be deleted
         head = head.next;
-        break;
+        return;
     }
 
     while(curr){
