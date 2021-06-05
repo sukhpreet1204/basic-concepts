@@ -1,0 +1,68 @@
+/*
+A pseudo-class is used to define a special state of an element.
+
+Anchor Pseudo-classes
+*/
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+/*Pseudo-classes can be combined with CSS classes*/
+a.highlight:hover {
+  color: #ff0000;
+}
+
+/*An example of using the :hover pseudo-class on a <div> element*/
+div:hover {
+  background-color: blue;
+}
+
+/* Hover over a <div> element to show a <p> element (like a tooltip): */
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+
+/*the selector matches any <p> element that is the first child of any element*/
+p:first-child {
+  color: blue;
+}
+
+/*the selector matches the first <i> element in all <p> elements*/
+p i:first-child {
+  color: blue;
+}
+
+/*the selector matches all <i> elements in <p> elements that are the first child of another element*/
+p:first-child i {
+  color: blue;
+}
+
+/* The :lang pseudo-class allows you to define special rules for different languages.
+  In the example below, :lang defines the quotation marks for <q> elements with lang="no":
+*/
+
+  q:lang(no) {
+    quotes: "~" "~";
+  }
