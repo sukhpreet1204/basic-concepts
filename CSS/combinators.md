@@ -1,11 +1,11 @@
 /* 
-A combinator is something that explains the relationship between the selectors.
+A combinator is something that explains the relationship between the selectors.<br>
 There are four different combinators in CSS:
 
-descendant selector (space)
-child selector (>)
-adjacent sibling selector (+)
-general sibling selector (~)
+descendant selector (space)<br>
+child selector (>)<br>
+adjacent sibling selector (+)<br>
+general sibling selector (~)<br>
 
  */
  
@@ -28,8 +28,7 @@ general sibling selector (~)
   }
 
 
-  /* The general sibling selector selects all elements that are siblings of a specified element.
-   */
+  /* The general sibling selector selects all elements that are siblings of a specified element.*/<br>
    div ~ p {
     background-color: yellow;
   }
